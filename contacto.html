@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Gastronomía y Cultura</title>
+    <link rel="stylesheet" href="estilos/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <img src="imagenes/Logo.jpg" alt="Logo del sitio" id="logo">
+            <h1>Contacto</h1>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="recetas.html">Recetas</a></li>
+            <li><a href="historia.html">Historia</a></li>
+            <li><a href="cultura.html">Cultura</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main class="contact-container">
+        <section class="contact-info">
+            <h2><i class="fas fa-envelope"></i> Ponte en contacto</h2>
+            <p>Nos encantaría escuchar tus comentarios y sugerencias sobre gastronomía y cultura vasca.</p>
+            
+            <div class="contact-details">
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+34 900 000 000</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Bilbao, País Vasco</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-clock"></i>
+                    <p>Lunes a Viernes: 9:00 - 18:00</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-form">
+            <form action="mailto:ses-sair@birt.eus" method="post" enctype="text/plain">
+                <div class="form-group">
+                    <label for="nombre">
+                        <i class="fas fa-user"></i> Nombre
+                    </label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="correo">
+                        <i class="fas fa-envelope"></i> Correo
+                    </label>
+                    <input type="email" id="correo" name="correo" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">
+                        <i class="fas fa-heading"></i> Asunto
+                    </label>
+                    <input type="text" id="asunto" name="asunto" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">
+                        <i class="fas fa-comment"></i> Mensaje
+                    </label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+
+                <button type="submit">
+                    <i class="fas fa-paper-plane"></i> Enviar Mensaje
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2024 Gastronomía y Cultura</p>
+    </footer>
+</body>
+</html>
